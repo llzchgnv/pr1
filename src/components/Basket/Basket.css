@@ -1,0 +1,50 @@
+.basket_item {
+    padding: 30px;
+
+    border-radius: 20px;
+    border: 1px solid #F3F3F3;
+    background: #FFF;
+    width: 100%;
+
+    margin-bottom: 20px;
+
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+
+.basket_img {
+    width: 70px;
+}
+
+.basket_text {
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    width: 150px;
+}
+
+.basket_text p {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.basket_text span {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.basket_delete{
+    cursor: pointer;
+}
